@@ -27,6 +27,7 @@ This interactive choropleth map visualizes carbon emissions data across differen
 - **Leaflet.js:** Interactive mapping library for creating dynamic and interactive maps.
 - **Chroma.js:** JavaScript library for color scale generation, enhancing the visual representation of data.
 - **jQuery:** JavaScript library for simplified DOM manipulation and event handling.
+- **Geojson.io:** Website for converting files into Geojson format
 
 ## Credits
 
