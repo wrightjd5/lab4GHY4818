@@ -1,6 +1,6 @@
 # US Carbon Emissions Choropleth Map
 
-This interactive choropleth map visualizes carbon emissions data across different states in the United States. The map is designed to provide an intuitive and informative representation of carbon emissions, allowing users to explore and understand emission patterns in different regions.
+This interactive choropleth map visualizes carbon emissions data across different states in the United States during 2021. The map is designed to provide an intuitive and informative representation of carbon emissions, allowing users to explore and understand emission patterns in different regions.
 
 ## Features
 
