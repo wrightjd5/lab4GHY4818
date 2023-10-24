@@ -53,12 +53,22 @@
       border-radius: 5px;          
       }
 
+     
       h1 {
-      font-size: 24px;
-      color: #333; /* Change the color to your preference */
-      text-align: center; /* Center-align the title */
-      margin-bottom: 20px; /* Optional: Add some space between the title and the map */
-      }
+			position: absolute;
+    		top: 5%; /* Position the top of the element at the middle of the container */
+    		left: 50%; /* Position the left side of the element at the center of the container */
+    		transform: translate(-50%, -50%); /* Center the element both horizontally and vertically */
+    		font-size: 2em;
+    		font-family: "Lora", serif;
+    		letter-spacing: .04em;
+    		padding: 10px 15px;
+    		background: rgba(256, 256, 256);
+    		border: 1px solid grey;
+    		border-radius: 3px;
+   			z-index: 800;
+		  }
+
 
 
    
@@ -92,12 +102,18 @@
   //add a new div element
   <div class='legend'></div>
   
+  
+  
 
 
 <script>
+
+
+// 1. Create the map object with smooth zooming and panning
 // 1 create the map object and the base layer
 var map = L.map('map').setView([39.8283, -98.5795], 4); //latlong coordinates centered over US      
-L.tileLayer('http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png').addTo(map);  
+L.tileLayer('http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png').addTo(map);
+
     
       // 2. Create the chorepleth map with interactive functions.          
 // determine the number of classes and their respective break values.          
