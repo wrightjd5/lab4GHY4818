@@ -30,7 +30,7 @@ This interactive choropleth map visualizes carbon emissions data across differen
 
 ## Credits
 
-Population data provided by US Census Bureau.
+Population data provided by U.S. Energy Information Administration.
 
 ## License
 
