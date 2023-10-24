@@ -129,7 +129,9 @@ var grades = [0, 10, 20, 50, 100, 200, 500, 1000];
           
 // or
            
-var colors = chroma.scale(['#f7fbff', '#edf8e9', '#c7e9c0', '#41ab5d', '#005a32']).colors(grades.length);
+
+// Define custom colors for the choropleth map
+var colors = chroma.scale(['#eff3ff', '#bdd7e7', '#6baed6', '#3182bd', '#08519c']).colors(grades.length);
 
           
 // you can change the forward slashes to see the difference in these two lines          
