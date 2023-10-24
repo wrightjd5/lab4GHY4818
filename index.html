@@ -2,7 +2,7 @@
 <html>
   <head>
 
-    <title>Adding Web Map Interactions</title>
+    <title>US Carbon Emissions Chloropleth Map</title>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.0/dist/leaflet.css"/>
@@ -93,10 +93,10 @@
   
 
 
-    <script>
-    // 1 create the map object and the base layer
-    var map = L.map('map').setView([37.8, -96], 5); //latlong coordinates centered over US      
-    L.tileLayer('http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png').addTo(map);  
+<script>
+// 1 create the map object and the base layer
+var map = L.map('map').setView([37.8, -96], 5); //latlong coordinates centered over US      
+L.tileLayer('http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png').addTo(map);  
     
       // 2. Create the chorepleth map with interactive functions.          
 // determine the number of classes and their respective break values.          
