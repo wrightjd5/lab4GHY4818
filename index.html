@@ -81,6 +81,24 @@
       opacity: 0.7;          
       }
 
+      h2 {
+			font-family: "Lora", serif;
+			letter-spacing: .04em;
+		  }
+
+      section {
+			position: absolute;
+			bottom: 0;
+			left: 10px;
+			width: 280px;
+			margin: 20px auto;
+			padding: 0 15px;
+			background: rgba(256, 256, 256);
+			border: 1px solid grey;
+			border-radius: 3px;
+			z-index: 800;
+		  }
+
 
 
 
@@ -98,6 +116,20 @@
 <body>
 
   <h1>United States Carbon Emissions 2021 </h1>
+  <section>
+		<h2>About This Map</h2>
+
+		<p>This interactive choropleth map visualizes carbon emissions data for U.S. states in the year 2021. Each state is color-coded based on its carbon emissions, measured in metric tons per capita.  </p>
+
+		<p>The map uses different shades of blue to represent emission levels, ranging from light blue for lower emissions to dark blue for higher emissions.  </p>
+
+		<p> Hover over a state to view its name and carbon emissions value. Click on a state to zoom in for a closer look.</p>
+		<p> Source: <a href="https://www.eia.gov/environment/emissions/state/">U.S. Energy Information Administration</a></p>
+			
+			
+		<p>Map author: Jason Wright</p>
+
+	</section>
   <div id='map'></div>
   //add a new div element
   <div class='legend'></div>
