@@ -1,38 +1,49 @@
-# US Carbon Emissions Choropleth Map
+# Chicago Seniors in Food Deserts Map
 
-This interactive choropleth map visualizes carbon emissions data across different states in the United States during 2021. The map is designed to provide an intuitive and informative representation of carbon emissions, allowing users to explore and understand emission patterns in different regions.
+An interactive map illustrating the number of seniors per census tract in Chicago living in food deserts. The map also displays the locations of grocery stores in the region.
 
-## Features
+## Table of Contents
+- [About](#about)
+- [How to Use](#how-to-use)
+- [Data Sources](#data-sources)
+- [Contributing](#contributing)
+- [Contact](#contact)
 
-- **Interactive Map:** Explore carbon emissions data by hovering over states to view detailed information.
-- **Color Representation:** States are color-coded based on carbon emissions, with a custom color palette indicating emission levels.
-- **Informative Tooltips:** Detailed tooltips provide specific emission values for each state, enhancing the user's understanding of the data.
-- **Interactive Legend:** The legend is interactive, allowing users to filter states based on emission ranges by clicking on legend items.
-- **Responsive Design:** The map is designed to be responsive and can be accessed on various devices.
+## About
+
+This interactive map provides insights into the distribution of seniors living in food deserts across different census tracts in Chicago. Additionally, it highlights the locations of grocery stores to facilitate a better understanding of the accessibility of food resources for seniors in the city.
 
 ## How to Use
 
-- **Hover:** Hover over a state to see the specific carbon emissions value in metric tons per capita.
-- **Click:** Click on a state to zoom in and get a closer look at the region.
-- **Legend Interaction:** Click on legend items to filter states based on emission ranges, providing a dynamic view of the data.
+1. **Hover over a Census Tract:** Move your cursor over a census tract to view the number of seniors living in a food desert.
 
-## Customization
+2. **Click on a Census Tract:** Click on a census tract to zoom in and explore more detailed information.
 
-- **Color Palette:** The color palette representing emission levels can be customized by modifying the code.
-- **Tooltips:** Tooltip content can be enhanced further to include additional data points for a richer user experience.
-- **Data Source:** Replace the GeoJSON data source with your specific dataset for different thematic mapping purposes.
+3. **Grocery Store Information:** Icons on the map represent the locations of grocery stores. Click on the icons to view the names of the grocery stores.
 
-## Technologies Used
+## Data Conversion Process
 
-- **Leaflet.js:** Interactive mapping library for creating dynamic and interactive maps.
-- **Chroma.js:** JavaScript library for color scale generation, enhancing the visual representation of data.
-- **jQuery:** JavaScript library for simplified DOM manipulation and event handling.
-- **Geojson.io:** Website for converting files into Geojson format
+The shapefile containing the Chicago census tract boundaries and the number of seniors living in food deserts was obtained and converted to GeoJSON format. Grocery store locations were extracted from a GeoJSON file containing the necessary information about the stores.
 
-## Credits
+## Data Sources
 
-Population data provided by U.S. Energy Information Administration.
+- **Seniors in Food Deserts Data:** [Your Data Source]
+- **Census Tract Boundaries:** [Your Data Source]
+- **Grocery Store Data:** [Your Data Source]
 
-## License
+## Contributing
+
+If you'd like to contribute to this project, please follow these steps:
+
+1. Fork the repository
+2. Create a new branch (`git checkout -b feature/new-feature`)
+3. Commit your changes (`git commit -m 'Add new feature'`)
+4. Push to the branch (`git push origin feature/new-feature`)
+5. Open a pull request
+
+## Contact
+
+For any inquiries or feedback, please contact [Your Contact Name](mailto:your.email@example.com).
+
 
 This project is licensed under the MIT License.
